@@ -21,6 +21,8 @@ public class ServerController {
 
             num = sc.nextInt();
             switch (num) {
+                case 0:
+                    break;
                 case 1:
                     ReqRepBasicServer.start();
                     break;
