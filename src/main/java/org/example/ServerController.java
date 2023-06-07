@@ -36,7 +36,7 @@ public class ServerController {
                     PubSubAndPullPushServerV2.start();
                     break;
                 case 5:
-                    DealerRouterAsyncServer.start();
+                    DealerRouterAsyncServer.start(new String[]{"1"});
                     break;
                 default:
                     System.out.println("1~5 중에 선택해주세요.\n");
