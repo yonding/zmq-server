@@ -17,6 +17,7 @@ public class ServerController {
             System.out.println(" 3 : PubSubAndPullPushServer");
             System.out.println(" 4 : PubSubAndPullPushServerV2");
             System.out.println(" 5 : DealerRouterAsyncServer");
+            System.out.println(" 6 : P2pDechat");
             System.out.println("========================");
 
             num = sc.nextInt();
