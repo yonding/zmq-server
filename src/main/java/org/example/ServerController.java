@@ -17,7 +17,6 @@ public class ServerController {
             System.out.println(" 3 : PubSubAndPullPushServer");
             System.out.println(" 4 : PubSubAndPullPushServerV2");
             System.out.println(" 5 : DealerRouterAsyncServer");
-            System.out.println(" 6 : P2pDechat");
             System.out.println("========================");
 
             num = sc.nextInt();
@@ -38,9 +37,6 @@ public class ServerController {
                     break;
                 case 5:
                     DealerRouterAsyncServer.start(new String[]{"1"});
-                    break;
-                case 6:
-                    P2pDechat.start(new String[]{""});
                     break;
                 default:
                     System.out.println("1~5 중에 선택해주세요.\n");
